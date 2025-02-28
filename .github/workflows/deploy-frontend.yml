@@ -39,7 +39,7 @@ jobs:
         with:
           context: .
           push: true
-          tag: teeradui/234-deploylab-frontend:latest
+          tags: teeradui/234-deploylab-frontend:latest
 
       - 
         name: copy file via ssh password
